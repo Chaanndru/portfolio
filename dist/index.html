@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" class="dark scroll-smooth">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chandru Nishand | 3D Portfolio · B.Tech Cyber Security</title>
-  <meta name="description" content="Personal portfolio of Chandru Nishand — B.Tech Cyber Security Student, Developer, and Problem Solver at IIIT Kottayam. Exploring systems engineering, algorithms, and secure software." />
-  
+  <meta name="description"
+    content="Personal portfolio of Chandru Nishand — B.Tech Cyber Security Student, Developer, and Problem Solver at IIIT Kottayam. Exploring systems engineering, algorithms, and secure software." />
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet" />
 
-  <script type="module" crossorigin src="/assets/index-fpHn-O5r.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-WenL2H1Q.css">
+  <script type="module" crossorigin src="/assets/index-B7cV2h2v.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-3QiHe7C0.css">
 </head>
-<body class="bg-surface-container-lowest font-body text-on-surface antialiased relative min-h-screen selection:bg-primary-container selection:text-white">
+
+<body
+  class="bg-surface-container-lowest font-body text-on-surface antialiased relative min-h-screen selection:bg-primary-container selection:text-white">
 
   <!-- Background 3D Starfield Particles Canvas Container -->
   <div id="bg-particles-viewport" class="fixed inset-0 pointer-events-none z-0"></div>
@@ -23,27 +31,32 @@
   <!-- Ambient Ambient Glow Orbs -->
   <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
     <div class="absolute -top-40 -left-40 w-[600px] h-[600px] rounded-full bg-primary-container/10 blur-[140px]"></div>
-    <div class="absolute top-1/3 -right-40 w-[500px] h-[500px] rounded-full bg-secondary-container/20 blur-[160px]"></div>
-    <div class="absolute -bottom-40 left-1/4 w-[700px] h-[700px] rounded-full bg-primary-container/5 blur-[180px]"></div>
+    <div class="absolute top-1/3 -right-40 w-[500px] h-[500px] rounded-full bg-secondary-container/20 blur-[160px]">
+    </div>
+    <div class="absolute -bottom-40 left-1/4 w-[700px] h-[700px] rounded-full bg-primary-container/5 blur-[180px]">
+    </div>
   </div>
 
   <!-- Header Navigation -->
-  <header class="fixed top-0 inset-x-0 z-50 transition-all duration-300 backdrop-blur-xl bg-surface-container-lowest/80 border-b border-primary-container/10">
+  <header
+    class="fixed top-0 inset-x-0 z-50 transition-all duration-300 backdrop-blur-xl bg-surface-container-lowest/80 border-b border-primary-container/10">
     <div class="h-20 max-w-[1440px] mx-auto px-4 md:px-8 lg:px-16 flex items-center justify-between gap-4">
-      
+
       <!-- Brand & Status -->
       <div class="flex items-center gap-4">
         <a href="#home" class="flex items-center gap-3 group">
-          <div class="w-10 h-10 rounded-lg bg-surface-container-low/80 backdrop-blur-xl border border-primary-container/30 flex items-center justify-center transition-all duration-300 group-hover:border-primary-container group-hover:shadow-[0_0_20px_rgba(255,42,85,0.4)]">
+          <div
+            class="w-10 h-10 rounded-lg bg-surface-container-low/80 backdrop-blur-xl border border-primary-container/30 flex items-center justify-center transition-all duration-300 group-hover:border-primary-container group-hover:shadow-[0_0_20px_rgba(255,42,85,0.4)]">
             <span class="font-mono text-sm font-bold text-primary-container tracking-wider">CN</span>
           </div>
           <div class="flex flex-col">
             <span class="font-display font-semibold text-on-surface tracking-tight text-base">Chandru Nishand</span>
-            <span class="font-mono text-[10px] text-on-surface-variant tracking-wider">3D Portfolio · Dev</span>
+
           </div>
         </a>
 
-        <div class="hidden xl:flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-low/60 backdrop-blur-md border border-outline-variant/30">
+        <div
+          class="hidden xl:flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-low/60 backdrop-blur-md border border-outline-variant/30">
           <div class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></div>
           <span class="font-mono text-[11px] text-on-surface-variant">BUILD • LEARN • SOLVE</span>
           <span class="text-outline text-xs">|</span>
@@ -52,47 +65,66 @@
       </div>
 
       <!-- Navigation Links (Desktop) -->
-      <nav class="hidden lg:flex items-center gap-1 p-1.5 rounded-xl bg-surface-container-low/75 backdrop-blur-2xl border border-primary-container/20 shadow-lg">
-        <a href="#home" class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Home</a>
-        <a href="#about" class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">About</a>
-        <a href="#skills" class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Skills</a>
-        <a href="#projects" class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Projects</a>
-        <a href="#cybersecurity" class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Security</a>
-        <a href="#education" class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Education</a>
-        <a href="#contact" class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Contact</a>
+      <nav
+        class="hidden lg:flex items-center gap-1 p-1.5 rounded-xl bg-surface-container-low/75 backdrop-blur-2xl border border-primary-container/20 shadow-lg">
+        <a href="#home"
+          class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Home</a>
+        <a href="#about"
+          class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">About</a>
+        <a href="#skills"
+          class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Skills</a>
+        <a href="#projects"
+          class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Projects</a>
+        <a href="#cybersecurity"
+          class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Security</a>
+        <a href="#education"
+          class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Education</a>
+        <a href="#contact"
+          class="nav-link px-4 py-2 rounded-lg font-mono text-xs text-on-surface-variant hover:text-primary transition-all">Contact</a>
       </nav>
 
       <!-- Action Button & Mobile Menu Button -->
       <div class="flex items-center gap-3">
-        <a href="#contact" class="hidden sm:inline-flex items-center justify-center h-10 px-5 rounded-lg font-mono text-xs font-semibold text-primary-container bg-primary-container/10 border border-primary-container hover:bg-primary-container hover:text-white transition-all shadow-[0_0_15px_rgba(255,42,85,0.2)]">
+        <a href="#contact"
+          class="hidden sm:inline-flex items-center justify-center h-10 px-5 rounded-lg font-mono text-xs font-semibold text-primary-container bg-primary-container/10 border border-primary-container hover:bg-primary-container hover:text-white transition-all shadow-[0_0_15px_rgba(255,42,85,0.2)]">
           Let's Connect
         </a>
-        <button id="mobile-menu-btn" class="lg:hidden w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface hover:text-primary-container border border-outline-variant/30">
+        <button id="mobile-menu-btn"
+          class="lg:hidden w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface hover:text-primary-container border border-outline-variant/30">
           <span class="material-symbols-outlined text-xl">menu</span>
         </button>
       </div>
     </div>
 
     <!-- Mobile Drawer Menu -->
-    <div id="mobile-menu" class="hidden lg:hidden px-6 py-4 bg-surface-container-low/95 backdrop-blur-2xl border-b border-primary-container/20 flex flex-col gap-2">
-      <a href="#home" class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">Home</a>
-      <a href="#about" class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">About</a>
-      <a href="#skills" class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">Skills</a>
-      <a href="#projects" class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">Projects</a>
-      <a href="#cybersecurity" class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">Security</a>
-      <a href="#education" class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">Education</a>
+    <div id="mobile-menu"
+      class="hidden lg:hidden px-6 py-4 bg-surface-container-low/95 backdrop-blur-2xl border-b border-primary-container/20 flex flex-col gap-2">
+      <a href="#home"
+        class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">Home</a>
+      <a href="#about"
+        class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">About</a>
+      <a href="#skills"
+        class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">Skills</a>
+      <a href="#projects"
+        class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">Projects</a>
+      <a href="#cybersecurity"
+        class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">Security</a>
+      <a href="#education"
+        class="mobile-link py-2 font-mono text-sm text-on-surface border-b border-outline-variant/20">Education</a>
       <a href="#contact" class="mobile-link py-2 font-mono text-sm text-on-surface">Contact</a>
     </div>
   </header>
 
   <!-- Main Container -->
   <main class="w-full pt-20 relative z-10 min-h-screen">
-    
+
     <!-- Telemetry Ambient Bar -->
     <section class="max-w-[1440px] mx-auto w-full px-4 md:px-8 lg:px-16 pt-4 pb-2" id="home">
-      <div class="flex flex-wrap items-center justify-between gap-3 bg-surface-container-low/70 backdrop-blur-xl px-4 py-2.5 rounded-xl border border-primary-container/10">
+      <div
+        class="flex flex-wrap items-center justify-between gap-3 bg-surface-container-low/70 backdrop-blur-xl px-4 py-2.5 rounded-xl border border-primary-container/10">
         <div class="flex items-center gap-2">
-          <span class="inline-flex w-2 h-2 rounded-full bg-primary-container animate-pulse shadow-[0_0_8px_#ff2a55]"></span>
+          <span
+            class="inline-flex w-2 h-2 rounded-full bg-primary-container animate-pulse shadow-[0_0_8px_#ff2a55]"></span>
           <span class="font-mono text-[11px] text-primary font-medium">CORE SYSTEM STATUS: ONLINE</span>
           <span class="text-outline text-xs">/</span>
           <span class="font-mono text-[11px] text-on-surface-variant">NODE: IIIT-KTM // LATENCY: 14ms</span>
@@ -110,40 +142,48 @@
     <!-- HERO SECTION -->
     <section class="max-w-[1440px] mx-auto w-full px-4 md:px-8 lg:px-16 py-8 lg:py-16">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-        
+
         <!-- Left Hero Narrative -->
         <div class="lg:col-span-6 flex flex-col gap-4">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container/10 border border-primary-container/20 w-fit">
+          <div
+            class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container/10 border border-primary-container/20 w-fit">
             <span class="material-symbols-outlined text-primary-container text-base">token</span>
-            <span class="font-mono text-xs text-primary-container tracking-wider uppercase font-semibold">Interactive 3D Engine · Port 01</span>
+            <span class="font-mono text-xs text-primary-container tracking-wider uppercase font-semibold">Interactive 3D
+              Engine · Port 01</span>
           </div>
 
-          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-on-surface leading-tight">
+          <h1
+            class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-on-surface leading-tight">
             HELLO, I'M <span class="text-primary-container">CHANDRU</span><br />
-            I build things that <span class="text-primary-container drop-shadow-[0_0_25px_rgba(255,42,85,0.45)]">solve problems</span>.
+
           </h1>
 
           <p class="font-body text-base sm:text-lg text-on-surface-variant max-w-xl">
             B.Tech Cyber Security Student · Developer · Problem Solver<br />
-            Undergraduate at IIIT Kottayam engineering high-integrity software architectures. Melding defensive engineering principles, rigorous algorithms, and interactive modern computing.
+            Undergraduate at IIIT Kottayam engineering high-integrity software architectures. Melding defensive
+            engineering principles, rigorous algorithms, and interactive modern computing.
           </p>
 
           <!-- CTAs -->
           <div class="flex flex-wrap items-center gap-4 pt-2">
-            <a href="#projects" class="inline-flex items-center gap-2 h-12 px-6 rounded-xl bg-primary-container text-white font-mono text-xs font-bold shadow-xl shadow-primary-container/30 hover:scale-105 hover:bg-ruby-core transition-all">
+            <a href="#projects"
+              class="inline-flex items-center gap-2 h-12 px-6 rounded-xl bg-primary-container text-white font-mono text-xs font-bold shadow-xl shadow-primary-container/30 hover:scale-105 hover:bg-ruby-core transition-all">
               <span>EXPLORE WORK</span>
               <span class="material-symbols-outlined text-lg">terminal</span>
             </a>
-            <a href="#contact" class="inline-flex items-center gap-2 h-12 px-6 rounded-xl bg-surface-container-high/80 backdrop-blur-xl text-on-surface font-mono text-xs font-medium hover:bg-surface-bright hover:text-primary transition-all border border-outline-variant/30">
+            <a href="#contact"
+              class="inline-flex items-center gap-2 h-12 px-6 rounded-xl bg-surface-container-high/80 backdrop-blur-xl text-on-surface font-mono text-xs font-medium hover:bg-surface-bright hover:text-primary transition-all border border-outline-variant/30">
               <span>GET IN TOUCH</span>
               <span class="material-symbols-outlined text-lg">send</span>
             </a>
           </div>
 
           <!-- Specs Bento -->
-          <div class="mt-4 p-4 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl border border-primary-container/10">
+          <div
+            class="mt-4 p-4 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl border border-primary-container/10">
             <div class="flex items-center justify-between pb-2 mb-3 border-b border-outline-variant/15">
-              <span class="font-mono text-[11px] text-outline uppercase tracking-wider">DEV_ENVIRONMENT // STACK_PROFILE</span>
+              <span class="font-mono text-[11px] text-outline uppercase tracking-wider">DEV_ENVIRONMENT //
+                STACK_PROFILE</span>
               <span class="font-mono text-[11px] text-primary-container font-semibold">KERNEL: STABLE</span>
             </div>
             <div class="grid grid-cols-3 gap-3 text-center">
@@ -165,9 +205,11 @@
 
         <!-- Right 3D Viewport Column -->
         <div class="lg:col-span-6 relative flex flex-col">
-          <div class="relative w-full rounded-2xl bg-surface-container-lowest/90 backdrop-blur-2xl p-3 shadow-2xl border border-primary-container/20">
+          <div
+            class="relative w-full rounded-2xl bg-surface-container-lowest/90 backdrop-blur-2xl p-3 shadow-2xl border border-primary-container/20">
             <!-- 3D Header Strip -->
-            <div class="flex items-center justify-between px-3 py-2 rounded-lg bg-surface-container-low mb-2 border border-outline-variant/20">
+            <div
+              class="flex items-center justify-between px-3 py-2 rounded-lg bg-surface-container-low mb-2 border border-outline-variant/20">
               <div class="flex items-center gap-2">
                 <span class="w-3 h-3 rounded-full bg-error/80"></span>
                 <span class="w-3 h-3 rounded-full bg-amber-warn/80"></span>
@@ -182,10 +224,12 @@
             </div>
 
             <!-- THREE.JS CANVAS CONTAINER -->
-            <div id="hero-3d-viewport" class="relative w-full h-[420px] rounded-xl bg-surface-container-lowest overflow-hidden border border-outline-variant/20">
-              
+            <div id="hero-3d-viewport"
+              class="relative w-full h-[420px] rounded-xl bg-surface-container-lowest overflow-hidden border border-outline-variant/20">
+
               <!-- Floating HUD Overlay -->
-              <div class="absolute bottom-3 inset-x-3 flex items-center justify-between p-3 rounded-xl bg-surface-container-high/85 backdrop-blur-2xl pointer-events-auto border border-primary-container/20 z-10">
+              <div
+                class="absolute bottom-3 inset-x-3 flex items-center justify-between p-3 rounded-xl bg-surface-container-high/85 backdrop-blur-2xl pointer-events-auto border border-primary-container/20 z-10">
                 <div class="flex items-center gap-3">
                   <span class="material-symbols-outlined text-primary-container text-xl">view_in_ar</span>
                   <div class="flex flex-col">
@@ -194,8 +238,11 @@
                   </div>
                 </div>
                 <div class="flex items-center gap-1.5">
-                  <button id="btn-wireframe" class="px-3 py-1 rounded bg-surface-container-highest text-on-surface font-mono text-[10px] hover:bg-primary-container hover:text-white transition-colors">WIREFRAME</button>
-                  <button id="btn-reset-cam" class="px-3 py-1 rounded bg-surface-container-highest text-on-surface font-mono text-[10px] hover:bg-primary-container hover:text-white transition-colors">RESET CAM</button>
+                  <button id="btn-wireframe"
+                    class="px-3 py-1 rounded bg-surface-container-highest text-on-surface font-mono text-[10px] hover:bg-primary-container hover:text-white transition-colors">WIREFRAME</button>
+                  <button id="btn-reset-cam"
+                    class="px-3 py-1 rounded bg-surface-container-highest text-on-surface font-mono text-[10px] hover:bg-primary-container hover:text-white transition-colors">RESET
+                    CAM</button>
                 </div>
               </div>
             </div>
@@ -208,29 +255,37 @@
     <!-- ABOUT SECTION -->
     <section class="max-w-[1440px] mx-auto w-full px-4 md:px-8 lg:px-16 py-16" id="about">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
-        
+
         <!-- Identity Badge Column -->
         <div class="lg:col-span-5 flex flex-col">
-          <div class="relative rounded-3xl bg-surface-container-low/90 backdrop-blur-2xl p-6 sm:p-8 flex flex-col justify-between h-full overflow-hidden shadow-2xl border border-primary-container/15">
-            <div class="absolute top-0 right-0 w-64 h-64 bg-primary-container/15 rounded-full blur-3xl pointer-events-none"></div>
-            
+          <div
+            class="relative rounded-3xl bg-surface-container-low/90 backdrop-blur-2xl p-6 sm:p-8 flex flex-col justify-between h-full overflow-hidden shadow-2xl border border-primary-container/15">
+            <div
+              class="absolute top-0 right-0 w-64 h-64 bg-primary-container/15 rounded-full blur-3xl pointer-events-none">
+            </div>
+
             <div>
               <div class="flex items-center justify-between mb-4">
-                <div class="px-3 py-1 rounded bg-surface-container font-mono text-xs text-primary-container font-semibold border border-primary-container/20">
+                <div
+                  class="px-3 py-1 rounded bg-surface-container font-mono text-xs text-primary-container font-semibold border border-primary-container/20">
                   SYSTEM ID: CN-2024-KTM
                 </div>
                 <span class="material-symbols-outlined text-primary-container text-2xl">verified_user</span>
               </div>
 
               <!-- Profile Avatar -->
-              <div class="relative w-32 h-32 mx-auto my-6 rounded-2xl bg-surface-container-high overflow-hidden shadow-2xl border-2 border-primary-container/40 group">
-                <img src="/chandru.jpeg" alt="Chandru Nishand 3D Avatar" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+              <div
+                class="relative w-32 h-32 mx-auto my-6 rounded-2xl bg-surface-container-high overflow-hidden shadow-2xl border-2 border-primary-container/40 group">
+                <img src="/chandru.jpeg" alt="Chandru Nishand 3D Avatar"
+                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
               </div>
 
               <div class="text-center flex flex-col gap-1">
                 <h2 class="font-display text-2xl font-bold text-on-surface">CHANDRU NISHAND</h2>
-                <p class="font-body text-sm text-primary-container font-semibold">B.Tech in Cyber Security (Semester 5)</p>
-                <p class="font-mono text-xs text-on-surface-variant">Indian Institute of Information Technology, Kottayam</p>
+                <p class="font-body text-sm text-primary-container font-semibold">B.Tech in Cyber Security (Semester 5)
+                </p>
+                <p class="font-mono text-xs text-on-surface-variant">Indian Institute of Information Technology,
+                  Kottayam</p>
               </div>
             </div>
 
@@ -246,7 +301,8 @@
               <div class="flex items-center justify-between p-2.5 rounded-xl bg-surface-container">
                 <span class="font-mono text-xs text-on-surface-variant">STATUS</span>
                 <span class="font-mono text-xs text-primary-container font-semibold flex items-center gap-1.5">
-                  <span class="w-2 h-2 rounded-full bg-primary-container animate-pulse shadow-[0_0_6px_#ff2a55]"></span> OPEN FOR COLLABORATION
+                  <span class="w-2 h-2 rounded-full bg-primary-container animate-pulse shadow-[0_0_6px_#ff2a55]"></span>
+                  OPEN FOR COLLABORATION
                 </span>
               </div>
             </div>
@@ -256,7 +312,8 @@
         <!-- Narrative Column -->
         <div class="lg:col-span-7 flex flex-col justify-center gap-4">
           <div class="flex items-center gap-2">
-            <span class="font-mono text-xs text-primary-container font-bold tracking-wider uppercase">Profile Dossier</span>
+            <span class="font-mono text-xs text-primary-container font-bold tracking-wider uppercase">Profile
+              Dossier</span>
             <span class="text-outline">/</span>
             <span class="font-mono text-xs text-outline">02</span>
           </div>
@@ -266,24 +323,31 @@
           </h2>
 
           <p class="font-body text-base sm:text-lg text-on-surface leading-relaxed">
-            I am a B.Tech Cyber Security student at IIIT Kottayam with a strong foundation in programming, data structures, databases, and secure software development.
+            I am a B.Tech Cyber Security student at IIIT Kottayam with a strong foundation in programming, data
+            structures, databases, and secure software development.
           </p>
 
           <p class="font-body text-sm sm:text-base text-on-surface-variant leading-relaxed">
-            I enjoy building practical software solutions and understanding how systems can be designed to be both functional and secure. My technical toolkit includes Python, C, Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks, and Secure Software Engineering.
+            I enjoy building practical software solutions and understanding how systems can be designed to be both
+            functional and secure. My technical toolkit includes Python, C, Data Structures & Algorithms, DBMS,
+            Operating Systems, Computer Networks, and Secure Software Engineering.
           </p>
 
           <!-- Highlights -->
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-            <div class="p-4 rounded-2xl bg-surface-container-high/80 backdrop-blur-xl border border-primary-container/10">
+            <div
+              class="p-4 rounded-2xl bg-surface-container-high/80 backdrop-blur-xl border border-primary-container/10">
               <span class="material-symbols-outlined text-primary-container text-2xl mb-2">memory</span>
               <h3 class="font-display text-base font-semibold text-on-surface mb-1">Systems Level Craft</h3>
-              <p class="font-body text-xs text-on-surface-variant">Grounded in C and memory management, bridging bare hardware with abstract logic.</p>
+              <p class="font-body text-xs text-on-surface-variant">Grounded in C and memory management, bridging bare
+                hardware with abstract logic.</p>
             </div>
-            <div class="p-4 rounded-2xl bg-surface-container-high/80 backdrop-blur-xl border border-primary-container/10">
+            <div
+              class="p-4 rounded-2xl bg-surface-container-high/80 backdrop-blur-xl border border-primary-container/10">
               <span class="material-symbols-outlined text-primary-container text-2xl mb-2">vpn_key</span>
               <h3 class="font-display text-base font-semibold text-on-surface mb-1">Defense-in-Depth</h3>
-              <p class="font-body text-xs text-on-surface-variant">Building defensive boundaries: input validation, role security, and state immutability.</p>
+              <p class="font-body text-xs text-on-surface-variant">Building defensive boundaries: input validation, role
+                security, and state immutability.</p>
             </div>
           </div>
         </div>
@@ -295,33 +359,41 @@
     <section class="max-w-[1440px] mx-auto w-full px-4 md:px-8 lg:px-16 py-16" id="skills">
       <div class="flex flex-col gap-1 mb-8">
         <div class="flex items-center gap-2">
-          <span class="font-mono text-xs text-primary-container font-bold tracking-wider uppercase">Arsenal Registry</span>
+          <span class="font-mono text-xs text-primary-container font-bold tracking-wider uppercase">Arsenal
+            Registry</span>
           <span class="text-outline">/</span>
           <span class="font-mono text-xs text-outline">03</span>
         </div>
         <h2 class="font-headline text-3xl sm:text-4xl font-bold text-on-surface tracking-tight">Technical Skills</h2>
-        <p class="font-body text-sm sm:text-base text-on-surface-variant max-w-2xl">Structured inventory of languages, core concepts, database management, and developer tooling.</p>
+        <p class="font-body text-sm sm:text-base text-on-surface-variant max-w-2xl">Structured inventory of languages,
+          core concepts, database management, and developer tooling.</p>
       </div>
 
       <!-- 3D Skills Polyhedra Header Banner -->
-      <div class="w-full mb-8 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl p-4 border border-primary-container/15 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div
+        class="w-full mb-8 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl p-4 border border-primary-container/15 flex flex-col md:flex-row items-center justify-between gap-4">
         <div class="flex flex-col">
           <span class="font-mono text-xs text-primary-container font-semibold">3D INTERACTIVE TOOLBOX</span>
           <span class="font-display text-lg font-bold text-on-surface">Geometric Representation of Core Stack</span>
         </div>
-        <div id="skills-3d-viewport" class="w-full md:w-[480px] h-[160px] rounded-xl bg-surface-container-lowest/80 border border-outline-variant/20"></div>
+        <div id="skills-3d-viewport"
+          class="w-full md:w-[480px] h-[160px] rounded-xl bg-surface-container-lowest/80 border border-outline-variant/20">
+        </div>
       </div>
 
       <!-- Skill Cards Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        
+
         <!-- 1. Programming -->
-        <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
+        <div
+          class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
           <div>
-            <div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary-container mb-4 border border-primary-container/20 group-hover:shadow-[0_0_15px_rgba(255,42,85,0.3)] transition-shadow">
+            <div
+              class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary-container mb-4 border border-primary-container/20 group-hover:shadow-[0_0_15px_rgba(255,42,85,0.3)] transition-shadow">
               <span class="material-symbols-outlined text-2xl">code</span>
             </div>
-            <span class="font-mono text-[10px] text-primary-container font-semibold uppercase tracking-wider">Languages</span>
+            <span
+              class="font-mono text-[10px] text-primary-container font-semibold uppercase tracking-wider">Languages</span>
             <h3 class="font-display text-lg font-bold text-on-surface mt-1 mb-4">Programming</h3>
             <div class="flex flex-col gap-2">
               <div class="p-2.5 rounded-xl bg-surface-container flex items-center justify-between">
@@ -340,19 +412,27 @@
         </div>
 
         <!-- 2. Core Concepts -->
-        <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
+        <div
+          class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
           <div>
-            <div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary-container mb-4 border border-primary-container/20 group-hover:shadow-[0_0_15px_rgba(255,42,85,0.3)] transition-shadow">
+            <div
+              class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary-container mb-4 border border-primary-container/20 group-hover:shadow-[0_0_15px_rgba(255,42,85,0.3)] transition-shadow">
               <span class="material-symbols-outlined text-2xl">hub</span>
             </div>
-            <span class="font-mono text-[10px] text-primary-container font-semibold uppercase tracking-wider">Foundations</span>
+            <span
+              class="font-mono text-[10px] text-primary-container font-semibold uppercase tracking-wider">Foundations</span>
             <h3 class="font-display text-lg font-bold text-on-surface mt-1 mb-4">Core Concepts</h3>
             <div class="flex flex-wrap gap-1.5">
-              <span class="px-2.5 py-1 rounded bg-surface-container font-mono text-[11px] text-on-surface">Data Structures & Algorithms</span>
+              <span class="px-2.5 py-1 rounded bg-surface-container font-mono text-[11px] text-on-surface">Data
+                Structures & Algorithms</span>
               <span class="px-2.5 py-1 rounded bg-surface-container font-mono text-[11px] text-on-surface">DBMS</span>
-              <span class="px-2.5 py-1 rounded bg-surface-container font-mono text-[11px] text-on-surface">Operating Systems</span>
-              <span class="px-2.5 py-1 rounded bg-surface-container font-mono text-[11px] text-on-surface">Computer Networks</span>
-              <span class="px-2.5 py-1 rounded bg-surface-container font-mono text-[11px] text-primary-container font-semibold">Secure Software Engineering</span>
+              <span class="px-2.5 py-1 rounded bg-surface-container font-mono text-[11px] text-on-surface">Operating
+                Systems</span>
+              <span class="px-2.5 py-1 rounded bg-surface-container font-mono text-[11px] text-on-surface">Computer
+                Networks</span>
+              <span
+                class="px-2.5 py-1 rounded bg-surface-container font-mono text-[11px] text-primary-container font-semibold">Secure
+                Software Engineering</span>
             </div>
           </div>
           <p class="font-body text-xs text-on-surface-variant mt-4">
@@ -361,12 +441,15 @@
         </div>
 
         <!-- 3. Database -->
-        <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
+        <div
+          class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
           <div>
-            <div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary-container mb-4 border border-primary-container/20 group-hover:shadow-[0_0_15px_rgba(255,42,85,0.3)] transition-shadow">
+            <div
+              class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary-container mb-4 border border-primary-container/20 group-hover:shadow-[0_0_15px_rgba(255,42,85,0.3)] transition-shadow">
               <span class="material-symbols-outlined text-2xl">database</span>
             </div>
-            <span class="font-mono text-[10px] text-primary-container font-semibold uppercase tracking-wider">Persistence</span>
+            <span
+              class="font-mono text-[10px] text-primary-container font-semibold uppercase tracking-wider">Persistence</span>
             <h3 class="font-display text-lg font-bold text-on-surface mt-1 mb-4">Database</h3>
             <div class="flex flex-col gap-2">
               <div class="p-2.5 rounded-xl bg-surface-container flex items-center justify-between">
@@ -375,7 +458,8 @@
               </div>
               <div class="p-2.5 rounded-xl bg-surface-container flex flex-col gap-1">
                 <span class="font-mono text-[10px] text-outline uppercase">Capabilities</span>
-                <span class="font-body text-xs text-on-surface-variant">Schema normalization, indexing, parameterized query execution.</span>
+                <span class="font-body text-xs text-on-surface-variant">Schema normalization, indexing, parameterized
+                  query execution.</span>
               </div>
             </div>
           </div>
@@ -385,19 +469,23 @@
         </div>
 
         <!-- 4. Tools & Soft Skills -->
-        <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
+        <div
+          class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
           <div>
-            <div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary-container mb-4 border border-primary-container/20 group-hover:shadow-[0_0_15px_rgba(255,42,85,0.3)] transition-shadow">
+            <div
+              class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary-container mb-4 border border-primary-container/20 group-hover:shadow-[0_0_15px_rgba(255,42,85,0.3)] transition-shadow">
               <span class="material-symbols-outlined text-2xl">build_circle</span>
             </div>
-            <span class="font-mono text-[10px] text-primary-container font-semibold uppercase tracking-wider">Workflow</span>
+            <span
+              class="font-mono text-[10px] text-primary-container font-semibold uppercase tracking-wider">Workflow</span>
             <h3 class="font-display text-lg font-bold text-on-surface mt-1 mb-4">Tools & Soft Skills</h3>
             <div class="flex flex-wrap gap-1.5 mb-3">
               <span class="px-2.5 py-1 rounded bg-surface-container font-mono text-[11px] text-secondary">Git</span>
               <span class="px-2.5 py-1 rounded bg-surface-container font-mono text-[11px] text-secondary">VS Code</span>
             </div>
             <div class="p-2.5 rounded-xl bg-surface-container flex flex-wrap gap-1">
-              <span class="font-mono text-[10px] text-on-surface-variant">Problem Solving · Teamwork · Communication · Time Management · Quick Learner</span>
+              <span class="font-mono text-[10px] text-on-surface-variant">Problem Solving · Teamwork · Communication ·
+                Time Management · Quick Learner</span>
             </div>
           </div>
           <p class="font-body text-xs text-on-surface-variant mt-4">
@@ -417,17 +505,20 @@
           <span class="font-mono text-xs text-outline">04</span>
         </div>
         <h2 class="font-headline text-3xl sm:text-4xl font-bold text-on-surface tracking-tight">Featured Projects</h2>
-        <p class="font-body text-sm sm:text-base text-on-surface-variant max-w-2xl">Interactive practical implementations demonstrating security logic and algorithmic optimization.</p>
+        <p class="font-body text-sm sm:text-base text-on-surface-variant max-w-2xl">Interactive practical
+          implementations demonstrating security logic and algorithmic optimization.</p>
       </div>
 
       <!-- Dual Project Showcase Grid -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        
+
         <!-- Project 1: Secure Gym Slot Booking System -->
-        <div class="rounded-3xl bg-surface-container-low/90 backdrop-blur-2xl p-6 sm:p-8 flex flex-col justify-between shadow-2xl border border-primary-container/15 hover:border-primary-container/40 transition-all">
+        <div
+          class="rounded-3xl bg-surface-container-low/90 backdrop-blur-2xl p-6 sm:p-8 flex flex-col justify-between shadow-2xl border border-primary-container/15 hover:border-primary-container/40 transition-all">
           <div class="flex flex-col gap-4">
             <div class="flex items-center justify-between">
-              <span class="px-3 py-1 rounded bg-primary-container/10 border border-primary-container/30 text-primary-container font-mono text-xs font-semibold">
+              <span
+                class="px-3 py-1 rounded bg-primary-container/10 border border-primary-container/30 text-primary-container font-mono text-xs font-semibold">
                 DSA / SOFTWARE DEVELOPMENT
               </span>
               <span class="font-mono text-xs text-outline">ROLE: PROJECT CONTRIBUTOR</span>
@@ -436,7 +527,8 @@
             <div>
               <h3 class="font-display text-2xl font-bold text-on-surface">Secure Gym Slot Booking System</h3>
               <p class="font-body text-sm text-on-surface-variant mt-2">
-                A secure gym slot booking application designed to manage user authentication, slot availability and booking logic.
+                A secure gym slot booking application designed to manage user authentication, slot availability and
+                booking logic.
               </p>
             </div>
 
@@ -450,12 +542,15 @@
               <div class="grid grid-cols-3 gap-2 text-center" id="slot-grid">
                 <div class="p-2 rounded-lg slot-booked font-mono text-xs">06:00 AM [BOOKED]</div>
                 <div class="p-2 rounded-lg slot-booked font-mono text-xs">07:00 AM [BOOKED]</div>
-                <button class="p-2 rounded-lg slot-open font-mono text-xs" onclick="window.toggleSlot(this)">08:00 AM [OPEN]</button>
+                <button class="p-2 rounded-lg slot-open font-mono text-xs" onclick="window.toggleSlot(this)">08:00 AM
+                  [OPEN]</button>
                 <div class="p-2 rounded-lg slot-booked font-mono text-xs">09:00 AM [BOOKED]</div>
-                <button class="p-2 rounded-lg slot-open font-mono text-xs" onclick="window.toggleSlot(this)">10:00 AM [OPEN]</button>
+                <button class="p-2 rounded-lg slot-open font-mono text-xs" onclick="window.toggleSlot(this)">10:00 AM
+                  [OPEN]</button>
                 <div class="p-2 rounded-lg slot-booked font-mono text-xs">11:00 AM [BOOKED]</div>
               </div>
-              <span class="font-mono text-[10px] text-outline text-center">Click an open slot to test atomic reservation state</span>
+              <span class="font-mono text-[10px] text-outline text-center">Click an open slot to test atomic reservation
+                state</span>
             </div>
 
             <!-- Key Areas List -->
@@ -486,10 +581,12 @@
         </div>
 
         <!-- Project 2: Blood Bank Management System -->
-        <div class="rounded-3xl bg-surface-container-low/90 backdrop-blur-2xl p-6 sm:p-8 flex flex-col justify-between shadow-2xl border border-primary-container/15 hover:border-primary-container/40 transition-all">
+        <div
+          class="rounded-3xl bg-surface-container-low/90 backdrop-blur-2xl p-6 sm:p-8 flex flex-col justify-between shadow-2xl border border-primary-container/15 hover:border-primary-container/40 transition-all">
           <div class="flex flex-col gap-4">
             <div class="flex items-center justify-between">
-              <span class="px-3 py-1 rounded bg-primary-container/10 border border-primary-container/30 text-primary-container font-mono text-xs font-semibold">
+              <span
+                class="px-3 py-1 rounded bg-primary-container/10 border border-primary-container/30 text-primary-container font-mono text-xs font-semibold">
                 DSA PROJECT
               </span>
               <span class="font-mono text-xs text-outline">ROLE: PROJECT CONTRIBUTOR</span>
@@ -498,7 +595,8 @@
             <div>
               <h3 class="font-display text-2xl font-bold text-on-surface">Blood Bank Management System</h3>
               <p class="font-body text-sm text-on-surface-variant mt-2">
-                A graph-based blood bank management system that models hospitals and blood banks as a graph and uses Dijkstra's algorithm to determine shortest paths between them.
+                A graph-based blood bank management system that models hospitals and blood banks as a graph and uses
+                Dijkstra's algorithm to determine shortest paths between them.
               </p>
             </div>
 
@@ -506,34 +604,42 @@
             <div class="p-4 rounded-2xl bg-surface-container flex flex-col gap-3 border border-outline-variant/20">
               <div class="flex items-center justify-between font-mono text-xs">
                 <span class="text-on-surface font-bold">DIJKSTRA SHORTEST PATH GRAPH</span>
-                <span class="text-primary-container font-semibold" id="dijkstra-status">PATH: H1 → BB1 → H2 (Min Dist)</span>
+                <span class="text-primary-container font-semibold" id="dijkstra-status">PATH: H1 → BB1 → H2 (Min
+                  Dist)</span>
               </div>
 
               <!-- SVG Graph Visualizer -->
-              <div class="w-full h-36 bg-surface-container-highest/60 rounded-xl relative overflow-hidden flex items-center justify-center">
+              <div
+                class="w-full h-36 bg-surface-container-highest/60 rounded-xl relative overflow-hidden flex items-center justify-center">
                 <svg class="w-full h-full" viewBox="0 0 400 120">
                   <line x1="60" y1="60" x2="160" y2="30" stroke="#5d3f40" stroke-width="2" />
                   <line x1="60" y1="60" x2="160" y2="90" stroke="#5d3f40" stroke-width="2" />
-                  <line x1="160" y1="30" x2="260" y2="30" stroke="#ff2a55" stroke-width="3" stroke-dasharray="4" class="animate-pulse" />
+                  <line x1="160" y1="30" x2="260" y2="30" stroke="#ff2a55" stroke-width="3" stroke-dasharray="4"
+                    class="animate-pulse" />
                   <line x1="160" y1="90" x2="260" y2="90" stroke="#5d3f40" stroke-width="2" />
                   <line x1="260" y1="30" x2="340" y2="60" stroke="#ff2a55" stroke-width="3" />
                   <line x1="260" y1="90" x2="340" y2="60" stroke="#5d3f40" stroke-width="2" />
 
                   <!-- Nodes -->
                   <circle cx="60" cy="60" r="14" fill="#1c1f29" stroke="#ff2a55" stroke-width="2" />
-                  <text x="60" y="64" fill="#ff2a55" font-family="JetBrains Mono" font-size="10" font-weight="bold" text-anchor="middle">H1</text>
+                  <text x="60" y="64" fill="#ff2a55" font-family="JetBrains Mono" font-size="10" font-weight="bold"
+                    text-anchor="middle">H1</text>
 
                   <circle cx="160" cy="30" r="14" fill="#ff2a55" stroke="#ffdada" stroke-width="2" />
-                  <text x="160" y="34" fill="#ffffff" font-family="JetBrains Mono" font-size="10" font-weight="bold" text-anchor="middle">BB1</text>
+                  <text x="160" y="34" fill="#ffffff" font-family="JetBrains Mono" font-size="10" font-weight="bold"
+                    text-anchor="middle">BB1</text>
 
                   <circle cx="160" cy="90" r="12" fill="#1c1f29" stroke="#ad8789" stroke-width="1.5" />
-                  <text x="160" y="94" fill="#ad8789" font-family="JetBrains Mono" font-size="9" text-anchor="middle">BB2</text>
+                  <text x="160" y="94" fill="#ad8789" font-family="JetBrains Mono" font-size="9"
+                    text-anchor="middle">BB2</text>
 
                   <circle cx="260" cy="30" r="14" fill="#ff2a55" stroke="#ffdada" stroke-width="2" />
-                  <text x="260" y="34" fill="#ffffff" font-family="JetBrains Mono" font-size="10" font-weight="bold" text-anchor="middle">H2</text>
+                  <text x="260" y="34" fill="#ffffff" font-family="JetBrains Mono" font-size="10" font-weight="bold"
+                    text-anchor="middle">H2</text>
 
                   <circle cx="340" cy="60" r="14" fill="#1c1f29" stroke="#ff2a55" stroke-width="2" />
-                  <text x="340" y="64" fill="#ff2a55" font-family="JetBrains Mono" font-size="10" font-weight="bold" text-anchor="middle">H3</text>
+                  <text x="340" y="64" fill="#ff2a55" font-family="JetBrains Mono" font-size="10" font-weight="bold"
+                    text-anchor="middle">H3</text>
                 </svg>
               </div>
 
@@ -575,20 +681,25 @@
 
     <!-- CYBERSECURITY SECTION -->
     <section class="max-w-[1440px] mx-auto w-full px-4 md:px-8 lg:px-16 py-16" id="cybersecurity">
-      <div class="p-6 sm:p-10 rounded-3xl bg-surface-container-low/80 backdrop-blur-2xl shadow-2xl relative overflow-hidden border border-primary-container/15">
+      <div
+        class="p-6 sm:p-10 rounded-3xl bg-surface-container-low/80 backdrop-blur-2xl shadow-2xl relative overflow-hidden border border-primary-container/15">
         <div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-          
+
           <div class="flex flex-col gap-4 max-w-xl">
             <div class="flex items-center gap-2">
-              <span class="font-mono text-xs text-primary-container font-bold tracking-wider uppercase">Architecture Doctrine</span>
+              <span class="font-mono text-xs text-primary-container font-bold tracking-wider uppercase">Architecture
+                Doctrine</span>
               <span class="text-outline">/</span>
               <span class="font-mono text-xs text-outline">05</span>
             </div>
 
-            <h2 class="font-headline text-3xl sm:text-4xl font-bold text-on-surface tracking-tight">Security by Design</h2>
+            <h2 class="font-headline text-3xl sm:text-4xl font-bold text-on-surface tracking-tight">Security by Design
+            </h2>
 
             <p class="font-body text-base text-on-surface-variant leading-relaxed">
-              Cyber Security background communications: proactive security thinking embedded at compile time and runtime. Systems are architected with strict boundary checks, least privilege, and cryptographic validation.
+              Cyber Security background communications: proactive security thinking embedded at compile time and
+              runtime. Systems are architected with strict boundary checks, least privilege, and cryptographic
+              validation.
             </p>
 
             <!-- Doctrine Nodes -->
@@ -613,24 +724,31 @@
           </div>
 
           <!-- 3D Cyber Shield Viewport -->
-          <div class="w-full lg:w-[460px] p-4 rounded-2xl bg-surface-container-high/90 backdrop-blur-xl flex flex-col gap-4 border border-primary-container/20 shadow-xl">
+          <div
+            class="w-full lg:w-[460px] p-4 rounded-2xl bg-surface-container-high/90 backdrop-blur-xl flex flex-col gap-4 border border-primary-container/20 shadow-xl">
             <div class="flex items-center justify-between">
               <span class="font-mono text-xs text-on-surface font-bold">3D DEFENSE SHIELD SIMULATOR</span>
               <span class="w-2.5 h-2.5 rounded-full bg-primary-container animate-ping"></span>
             </div>
 
             <!-- THREE.JS CYBER CANVAS -->
-            <div id="cyber-3d-viewport" class="w-full h-[220px] rounded-xl bg-surface-container-lowest overflow-hidden border border-outline-variant/20"></div>
+            <div id="cyber-3d-viewport"
+              class="w-full h-[220px] rounded-xl bg-surface-container-lowest overflow-hidden border border-outline-variant/20">
+            </div>
 
             <div class="space-y-2">
-              <div class="p-2.5 rounded-xl bg-surface-container flex items-center justify-between hover:bg-surface-bright cursor-pointer transition-colors" onclick="window.pingNode(this, 'Ingress Firewall Rules Active')">
+              <div
+                class="p-2.5 rounded-xl bg-surface-container flex items-center justify-between hover:bg-surface-bright cursor-pointer transition-colors"
+                onclick="window.pingNode(this, 'Ingress Firewall Rules Active')">
                 <div class="flex items-center gap-2">
                   <span class="material-symbols-outlined text-primary-container text-lg">security</span>
                   <span class="font-mono text-xs text-on-surface">Ingress Boundary Filter</span>
                 </div>
                 <span class="font-mono text-xs text-primary-container font-semibold">ACTIVE</span>
               </div>
-              <div class="p-2.5 rounded-xl bg-surface-container flex items-center justify-between hover:bg-surface-bright cursor-pointer transition-colors" onclick="window.pingNode(this, 'Database Layer Isolated')">
+              <div
+                class="p-2.5 rounded-xl bg-surface-container flex items-center justify-between hover:bg-surface-bright cursor-pointer transition-colors"
+                onclick="window.pingNode(this, 'Database Layer Isolated')">
                 <div class="flex items-center gap-2">
                   <span class="material-symbols-outlined text-primary-container text-lg">dns</span>
                   <span class="font-mono text-xs text-on-surface">Isolated Core Data Layer</span>
@@ -640,7 +758,8 @@
             </div>
 
             <div class="p-2.5 rounded-lg bg-surface-container-lowest text-center border border-outline-variant/20">
-              <span class="font-mono text-[11px] text-outline" id="network-log">Click node above to trigger packet audit pulse</span>
+              <span class="font-mono text-[11px] text-outline" id="network-log">Click node above to trigger packet audit
+                pulse</span>
             </div>
           </div>
 
@@ -652,42 +771,55 @@
     <section class="max-w-[1440px] mx-auto w-full px-4 md:px-8 lg:px-16 py-16" id="education">
       <div class="flex flex-col gap-1 mb-8">
         <div class="flex items-center gap-2">
-          <span class="font-mono text-xs text-primary-container font-bold tracking-wider uppercase">Academic Roadmap</span>
+          <span class="font-mono text-xs text-primary-container font-bold tracking-wider uppercase">Academic
+            Roadmap</span>
           <span class="text-outline">/</span>
           <span class="font-mono text-xs text-outline">06</span>
         </div>
-        <h2 class="font-headline text-3xl sm:text-4xl font-bold text-on-surface tracking-tight">Education & Certification</h2>
-        <p class="font-body text-sm sm:text-base text-on-surface-variant max-w-2xl">Academic degree progression and authenticated technical certifications.</p>
+        <h2 class="font-headline text-3xl sm:text-4xl font-bold text-on-surface tracking-tight">Education &
+          Certification</h2>
+        <p class="font-body text-sm sm:text-base text-on-surface-variant max-w-2xl">Academic degree progression and
+          authenticated technical certifications.</p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
-        
+
         <!-- Education Timeline (8 cols) -->
         <div class="lg:col-span-8 flex flex-col gap-4">
-          
+
           <!-- IIIT Kottayam -->
-          <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl border border-primary-container/20 shadow-xl">
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-outline-variant/15">
+          <div
+            class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl border border-primary-container/20 shadow-xl">
+            <div
+              class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-outline-variant/15">
               <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary-container font-bold">
+                <div
+                  class="w-10 h-10 rounded-xl bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary-container font-bold">
                   <span class="material-symbols-outlined text-xl">school</span>
                 </div>
                 <div>
-                  <h3 class="font-display text-xl font-bold text-on-surface">Indian Institute of Information Technology, Kottayam</h3>
-                  <p class="font-body text-sm text-primary-container font-semibold">B.Tech in Cyber Security (Semester 5)</p>
+                  <h3 class="font-display text-xl font-bold text-on-surface">Indian Institute of Information Technology,
+                    Kottayam</h3>
+                  <p class="font-body text-sm text-primary-container font-semibold">B.Tech in Cyber Security (Semester
+                    5)</p>
                 </div>
               </div>
-              <span class="font-mono text-xs text-primary bg-surface-container px-3 py-1 rounded border border-outline-variant/20 self-start sm:self-auto">2024 – Present</span>
+              <span
+                class="font-mono text-xs text-primary bg-surface-container px-3 py-1 rounded border border-outline-variant/20 self-start sm:self-auto">2024
+                – Present</span>
             </div>
             <p class="font-body text-sm text-on-surface-variant mt-4 leading-relaxed">
-              Specialized B.Tech curriculum covering Data Structures and Algorithms, Database Management Systems, Operating Systems, Computer Networks, and Secure Software Engineering.
+              Specialized B.Tech curriculum covering Data Structures and Algorithms, Database Management Systems,
+              Operating Systems, Computer Networks, and Secure Software Engineering.
             </p>
           </div>
 
           <!-- Class XII School -->
-          <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 border border-outline-variant/15">
+          <div
+            class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 border border-outline-variant/15">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-on-surface">
+              <div
+                class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-on-surface">
                 <span class="material-symbols-outlined text-xl">account_balance</span>
               </div>
               <div>
@@ -695,13 +827,16 @@
                 <p class="font-body text-xs text-on-surface-variant">Class XII Higher Secondary Education</p>
               </div>
             </div>
-            <span class="font-mono text-xs text-outline bg-surface-container px-3 py-1 rounded self-start sm:self-auto">Completed</span>
+            <span
+              class="font-mono text-xs text-outline bg-surface-container px-3 py-1 rounded self-start sm:self-auto">Completed</span>
           </div>
 
           <!-- Class X School -->
-          <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 border border-outline-variant/15">
+          <div
+            class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 border border-outline-variant/15">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-on-surface">
+              <div
+                class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-on-surface">
                 <span class="material-symbols-outlined text-xl">history_edu</span>
               </div>
               <div>
@@ -709,23 +844,28 @@
                 <p class="font-body text-xs text-on-surface-variant">Class X Secondary Education</p>
               </div>
             </div>
-            <span class="font-mono text-xs text-outline bg-surface-container px-3 py-1 rounded self-start sm:self-auto">Completed</span>
+            <span
+              class="font-mono text-xs text-outline bg-surface-container px-3 py-1 rounded self-start sm:self-auto">Completed</span>
           </div>
         </div>
 
         <!-- Certification Column (4 cols) -->
         <div class="lg:col-span-4 flex flex-col">
-          <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between h-full border border-primary-container/20 shadow-xl">
+          <div
+            class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between h-full border border-primary-container/20 shadow-xl">
             <div>
               <div class="flex items-center justify-between mb-4">
-                <span class="font-mono text-xs text-primary-container font-semibold uppercase tracking-wider">Certification</span>
+                <span
+                  class="font-mono text-xs text-primary-container font-semibold uppercase tracking-wider">Certification</span>
                 <span class="material-symbols-outlined text-primary-container text-2xl">workspace_premium</span>
               </div>
-              <h3 class="font-display text-lg font-bold text-on-surface">Programming Fundamentals using Python – Part 1</h3>
+              <h3 class="font-display text-lg font-bold text-on-surface">Programming Fundamentals using Python – Part 1
+              </h3>
               <p class="font-body text-xs text-on-surface-variant mt-3 leading-relaxed">
-                Foundational credential verifying proficiency in Python programming syntax, conditional logic structures, function definitions, and exception handling.
+                Foundational credential verifying proficiency in Python programming syntax, conditional logic
+                structures, function definitions, and exception handling.
               </p>
-              
+
               <div class="my-4 p-3 rounded-xl bg-surface-container border border-outline-variant/20">
                 <div class="flex items-center justify-between font-mono text-xs">
                   <span class="text-on-surface-variant">COMPLETED DATE</span>
@@ -757,14 +897,17 @@
           <span class="font-mono text-xs text-outline">07</span>
         </div>
         <h2 class="font-headline text-3xl sm:text-4xl font-bold text-on-surface tracking-tight">Exploration Areas</h2>
-        <p class="font-body text-sm sm:text-base text-on-surface-variant max-w-2xl">Key technical domains and career interest vectors.</p>
+        <p class="font-body text-sm sm:text-base text-on-surface-variant max-w-2xl">Key technical domains and career
+          interest vectors.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        
-        <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
+
+        <div
+          class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
           <div>
-            <div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-4">
+            <div
+              class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-4">
               <span class="material-symbols-outlined text-xl">terminal</span>
             </div>
             <h3 class="font-display text-base font-bold text-on-surface mb-2">Software Development</h3>
@@ -775,9 +918,11 @@
           <span class="mt-4 font-mono text-xs text-primary-container font-medium">01 // DEV CORE</span>
         </div>
 
-        <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
+        <div
+          class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
           <div>
-            <div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-4">
+            <div
+              class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-4">
               <span class="material-symbols-outlined text-xl">shield_lock</span>
             </div>
             <h3 class="font-display text-base font-bold text-on-surface mb-2">Cybersecurity</h3>
@@ -788,9 +933,11 @@
           <span class="mt-4 font-mono text-xs text-primary-container font-medium">02 // SEC DEFENSE</span>
         </div>
 
-        <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
+        <div
+          class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
           <div>
-            <div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-4">
+            <div
+              class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-4">
               <span class="material-symbols-outlined text-xl">psychology</span>
             </div>
             <h3 class="font-display text-base font-bold text-on-surface mb-2">Problem Solving</h3>
@@ -801,9 +948,11 @@
           <span class="mt-4 font-mono text-xs text-primary-container font-medium">03 // ALGORITHMS</span>
         </div>
 
-        <div class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
+        <div
+          class="p-6 rounded-2xl bg-surface-container-low/90 backdrop-blur-2xl flex flex-col justify-between group hover:bg-surface-container-high transition-all border border-primary-container/10 hover:border-primary-container/40">
           <div>
-            <div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-4">
+            <div
+              class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-4">
               <span class="material-symbols-outlined text-xl">precision_manufacturing</span>
             </div>
             <h3 class="font-display text-base font-bold text-on-surface mb-2">Practical Solutions</h3>
@@ -819,57 +968,69 @@
 
     <!-- CONTACT SECTION -->
     <section class="max-w-[1440px] mx-auto w-full px-4 md:px-8 lg:px-16 py-16" id="contact">
-      <div class="rounded-3xl bg-surface-container-low/90 backdrop-blur-2xl p-6 sm:p-10 shadow-2xl relative overflow-hidden border border-primary-container/20">
+      <div
+        class="rounded-3xl bg-surface-container-low/90 backdrop-blur-2xl p-6 sm:p-10 shadow-2xl relative overflow-hidden border border-primary-container/20">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          
+
           <!-- Left Details -->
           <div class="lg:col-span-6 flex flex-col gap-4">
             <div class="flex items-center gap-2">
-              <span class="font-mono text-xs text-primary-container font-bold tracking-wider uppercase">Direct Dispatch</span>
+              <span class="font-mono text-xs text-primary-container font-bold tracking-wider uppercase">Direct
+                Dispatch</span>
               <span class="text-outline">/</span>
               <span class="font-mono text-xs text-outline">08</span>
             </div>
 
             <h2 class="font-headline text-3xl sm:text-4xl font-bold text-on-surface tracking-tight">Let's Connect</h2>
-            
+
             <p class="font-body text-base text-on-surface-variant leading-relaxed">
               Open for discussions regarding software development, cybersecurity projects, or academic collaboration.
             </p>
 
             <div class="space-y-3 pt-2">
-              
+
               <!-- Email -->
-              <a href="mailto:tnchandru548673@gmail.com" class="p-3 rounded-xl bg-surface-container flex items-center justify-between hover:bg-surface-bright transition-colors group border border-outline-variant/15">
+              <a href="mailto:tnchandru548673@gmail.com"
+                class="p-3 rounded-xl bg-surface-container flex items-center justify-between hover:bg-surface-bright transition-colors group border border-outline-variant/15">
                 <div class="flex items-center gap-3">
-                  <div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container">
+                  <div
+                    class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container">
                     <span class="material-symbols-outlined text-lg">alternate_email</span>
                   </div>
                   <div class="flex flex-col">
                     <span class="font-mono text-[10px] text-on-surface-variant uppercase">EMAIL</span>
-                    <span class="font-mono text-xs sm:text-sm text-on-surface group-hover:text-primary-container">tnchandru548673@gmail.com</span>
+                    <span
+                      class="font-mono text-xs sm:text-sm text-on-surface group-hover:text-primary-container">tnchandru548673@gmail.com</span>
                   </div>
                 </div>
-                <span class="material-symbols-outlined text-outline group-hover:text-primary-container text-lg">arrow_outward</span>
+                <span
+                  class="material-symbols-outlined text-outline group-hover:text-primary-container text-lg">arrow_outward</span>
               </a>
 
               <!-- Phone -->
-              <a href="tel:8072234919" class="p-3 rounded-xl bg-surface-container flex items-center justify-between hover:bg-surface-bright transition-colors group border border-outline-variant/15">
+              <a href="tel:8072234919"
+                class="p-3 rounded-xl bg-surface-container flex items-center justify-between hover:bg-surface-bright transition-colors group border border-outline-variant/15">
                 <div class="flex items-center gap-3">
-                  <div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container">
+                  <div
+                    class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container">
                     <span class="material-symbols-outlined text-lg">call</span>
                   </div>
                   <div class="flex flex-col">
                     <span class="font-mono text-[10px] text-on-surface-variant uppercase">PHONE</span>
-                    <span class="font-mono text-xs sm:text-sm text-on-surface group-hover:text-primary-container">8072234919</span>
+                    <span
+                      class="font-mono text-xs sm:text-sm text-on-surface group-hover:text-primary-container">8072234919</span>
                   </div>
                 </div>
-                <span class="material-symbols-outlined text-outline group-hover:text-primary-container text-lg">arrow_outward</span>
+                <span
+                  class="material-symbols-outlined text-outline group-hover:text-primary-container text-lg">arrow_outward</span>
               </a>
 
               <!-- Location -->
-              <div class="p-3 rounded-xl bg-surface-container flex items-center justify-between border border-outline-variant/15">
+              <div
+                class="p-3 rounded-xl bg-surface-container flex items-center justify-between border border-outline-variant/15">
                 <div class="flex items-center gap-3">
-                  <div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container">
+                  <div
+                    class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container">
                     <span class="material-symbols-outlined text-lg">location_on</span>
                   </div>
                   <div class="flex flex-col">
@@ -884,7 +1045,8 @@
           </div>
 
           <!-- Right Form -->
-          <div class="lg:col-span-6 p-6 rounded-2xl bg-surface-container flex flex-col gap-4 border border-primary-container/20">
+          <div
+            class="lg:col-span-6 p-6 rounded-2xl bg-surface-container flex flex-col gap-4 border border-primary-container/20">
             <div class="flex items-center justify-between pb-2 border-b border-outline-variant/15">
               <span class="font-display text-base font-bold text-on-surface">Transmit Message</span>
               <span class="font-mono text-[10px] text-primary-container font-semibold uppercase">TLS SECURED</span>
@@ -893,18 +1055,22 @@
             <form id="contact-form" class="space-y-3" onsubmit="window.handleTransmit(event)">
               <div class="flex flex-col gap-1">
                 <label class="font-mono text-[10px] text-on-surface-variant uppercase">YOUR NAME</label>
-                <input type="text" required placeholder="e.g. Recruiter / Collaborator" class="h-10 px-3 rounded-lg bg-surface-container-lowest text-on-surface font-body text-xs outline-none focus:ring-1 focus:ring-primary-container border border-outline-variant/30" />
+                <input type="text" required placeholder="e.g. Recruiter / Collaborator"
+                  class="h-10 px-3 rounded-lg bg-surface-container-lowest text-on-surface font-body text-xs outline-none focus:ring-1 focus:ring-primary-container border border-outline-variant/30" />
               </div>
               <div class="flex flex-col gap-1">
                 <label class="font-mono text-[10px] text-on-surface-variant uppercase">YOUR EMAIL</label>
-                <input type="email" required placeholder="name@domain.com" class="h-10 px-3 rounded-lg bg-surface-container-lowest text-on-surface font-body text-xs outline-none focus:ring-1 focus:ring-primary-container border border-outline-variant/30" />
+                <input type="email" required placeholder="name@domain.com"
+                  class="h-10 px-3 rounded-lg bg-surface-container-lowest text-on-surface font-body text-xs outline-none focus:ring-1 focus:ring-primary-container border border-outline-variant/30" />
               </div>
               <div class="flex flex-col gap-1">
                 <label class="font-mono text-[10px] text-on-surface-variant uppercase">MESSAGE</label>
-                <textarea rows="3" required placeholder="Describe your inquiry or project message..." class="p-3 rounded-lg bg-surface-container-lowest text-on-surface font-body text-xs outline-none focus:ring-1 focus:ring-primary-container border border-outline-variant/30"></textarea>
+                <textarea rows="3" required placeholder="Describe your inquiry or project message..."
+                  class="p-3 rounded-lg bg-surface-container-lowest text-on-surface font-body text-xs outline-none focus:ring-1 focus:ring-primary-container border border-outline-variant/30"></textarea>
               </div>
 
-              <button type="submit" id="btn-transmit" class="w-full h-11 rounded-xl bg-primary-container text-white font-mono text-xs font-bold flex items-center justify-center gap-2 shadow-lg shadow-primary-container/30 hover:bg-ruby-core active:scale-95 transition-all">
+              <button type="submit" id="btn-transmit"
+                class="w-full h-11 rounded-xl bg-primary-container text-white font-mono text-xs font-bold flex items-center justify-center gap-2 shadow-lg shadow-primary-container/30 hover:bg-ruby-core active:scale-95 transition-all">
                 <span>SEND MESSAGE</span>
                 <span class="material-symbols-outlined text-base">send</span>
               </button>
@@ -918,17 +1084,21 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="w-full bg-surface-container-low/90 backdrop-blur-2xl border-t border-outline-variant/30 py-8 relative z-10">
+  <footer
+    class="w-full bg-surface-container-low/90 backdrop-blur-2xl border-t border-outline-variant/30 py-8 relative z-10">
     <div class="max-w-[1440px] mx-auto px-4 md:px-8 lg:px-16">
-      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-6 border-b border-outline-variant/20">
+      <div
+        class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-6 border-b border-outline-variant/20">
         <div class="flex flex-col gap-1">
           <div class="flex items-center gap-3">
-            <div class="w-8 h-8 rounded-lg bg-surface-container-high border border-primary-container/30 flex items-center justify-center">
+            <div
+              class="w-8 h-8 rounded-lg bg-surface-container-high border border-primary-container/30 flex items-center justify-center">
               <span class="font-mono text-xs font-bold text-primary-container">CN</span>
             </div>
             <span class="font-display text-lg font-bold text-on-surface">Chandru Nishand</span>
           </div>
-          <p class="font-body text-xs text-on-surface-variant">B.Tech Cyber Security Student · Developer · Problem Solver</p>
+          <p class="font-body text-xs text-on-surface-variant">B.Tech Cyber Security Student · Developer · Problem
+            Solver</p>
         </div>
 
         <div class="flex flex-wrap items-center gap-4 font-mono text-xs text-on-surface-variant">
@@ -945,12 +1115,15 @@
       <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4">
         <p class="font-mono text-[11px] text-outline">© 2026 Chandru Nishand. All rights reserved.</p>
         <div class="flex items-center gap-4">
-          <a href="mailto:tnchandru548673@gmail.com" class="font-mono text-[11px] text-on-surface-variant hover:text-primary-container transition-colors">Email</a>
-          <a href="tel:8072234919" class="font-mono text-[11px] text-on-surface-variant hover:text-primary-container transition-colors">Phone</a>
+          <a href="mailto:tnchandru548673@gmail.com"
+            class="font-mono text-[11px] text-on-surface-variant hover:text-primary-container transition-colors">Email</a>
+          <a href="tel:8072234919"
+            class="font-mono text-[11px] text-on-surface-variant hover:text-primary-container transition-colors">Phone</a>
         </div>
       </div>
     </div>
   </footer>
 
 </body>
+
 </html>
